@@ -1,0 +1,407 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.navbar{
+	display: flex;
+	align-items: center ;
+	padding: 20px;
+	position:sticky;
+	font-size: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+p{
+	color: black;
+}
+.container{
+	max-width:1300px;
+	margin: auto;
+	padding-left:25px;
+	padding-right: 25px;
+	
+
+}
+
+
+
+.logo img{
+	border-radius:20px ;
+	width:80px;
+	height: 80px;
+}
+
+.pro{
+	background-image: url(tailorhome.jpg);
+	height: 90vh;
+	width: 100%;
+	background-size: cover; 
+	background-position: top 25% right 0;
+	padding: 0 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	
+	
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 25px;
+}
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+	
+}
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+.col-2 h1{
+	line-height: 90px;
+	margin:25px 0;
+	font-family: Times New Roman;
+	font-size:60px;
+	
+
+
+}
+.col-2 h2{
+	font-family: Times New Roman;
+	font-size: 40px;
+}
+
+
+
+.btn{
+	display: inline-block;
+	background: red;
+	color: white;
+	padding: 8px 30px;
+	margin: 20px 0;
+	border-radius: 50px;}
+
+.btn:hover{
+ background: brown;
+}
+
+.header{
+	background: #d3d3d3;
+	
+
+}
+
+.categories{
+	margin:70px 0 ;
+}
+
+
+.col-3{
+	flex-basis: 30%;
+	min-width:250px ;
+	margin-bottom: 30px;
+
+}
+.col-3 img{
+	width: 100%;
+	margin: 2px;
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+
+
+}
+.col-4{
+	flex-basis:25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px ;
+	margin-left: 0;
+	transition: transform 0.5s ;
+
+}
+.col-4 img{
+	width: 180px;
+	height: 220px;
+	
+}
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: gray;
+}
+.title::after{
+	content: '';
+	background: red;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.h4{
+	color: white;
+	font-weight: normal;
+
+}
+.col-4 p{
+	font size:14px;
+}
+.rating .fa{
+	color: orangered;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+
+}
+
+/*----------- Offers----------*/
+
+.offer{
+	background: radial-gradient(white,lightblue);
+	margin-top: 80px;
+	padding: 30px 0;
+}
+.col-2 .offer-img{
+	padding: 50px;
+}
+small{
+	color: gray;
+
+}
+/*-----------logos-----------*/
+
+.Brands{
+	margin: 100px auto;
+
+}
+.col-5{
+	width: 160px;
+
+}
+.col-5 img{
+	width: 100px;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+/*---------Footer-----*/
+
+.footer {
+    background: black;
+
+}
+
+.footer a{
+	color: white;
+}
+
+   .footer  .socials{
+	margin-left: 25px;
+}
+
+
+
+.footer .box-container {
+    display: flex;
+	width: 100%;
+	margin: auto;
+    flex-wrap: wrap;
+   /* justify-content: space-between;*/ 
+}
+
+
+.footer .box1{
+	width: auto;
+}
+
+.img-footer{
+	width: 200px;
+	height: auto;
+	margin-right: 160px;
+	margin-left: 30px;
+	color: black;
+
+}
+
+.footer .box-container .box1 h3 {
+    font-size: 20px;
+    padding: 7px 0;
+    color: white;
+    margin-left: 25px;
+    margin-right: 160px;
+    margin-top: 8px;
+}
+
+.footer .box-container .about h3 {
+    font-size: 20px;
+    padding: 7px 0;
+    color: white;
+    margin-left: 35px;
+    margin-right: 80px;
+    margin-top: 8px;
+
+}
+
+
+.footer .box-container .box2 h3 {
+    font-size: 20px;
+    padding: 7px 0;
+    color: white;
+    margin-left: 100px;
+    
+    }
+
+ 
+.footer .box-container .box1 p {
+    font-size: 12px;
+    padding: 7px 0;
+    color: white;
+    margin-left: 100px;
+}
+
+.footer .box-container .about p {
+    font-size: 12px;
+    padding: 7px 0;
+    color: white;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+
+
+.footer .box-elementor-image img{
+	height: 200px;
+	width: 200px;
+	margin-right: 130px;
+}
+
+.footer .app-logo img{
+	width: 120px;
+	margin-left: 120px;
+ 	
+}
+
+.footer .app-logo .app-logo1 img{
+	width: 120px;
+ 	
+}
+
+
+.footer .box-container .box1 a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 12px 10px;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    border-top: .10px solid ;
+}
+
+.footer .credit span {
+    color: yellow;
+}
+
+
+/*-----------Menu--------------*/
+
+.checkbtn{
+	font-size: 18px;
+	color: black;
+	float: right;
+	line-height: 50px;
+	margin-right: 60px
+    cursor:pointer;
+    display: none;
+    margin-top:5px;
+    margin-left: 60px;
+}
+
+#check{
+	display: none;
+}
+
+@media (max-width:952px){
+	
+	
+}
+@media (max-width: 858px){
+
+.checkbtn{
+	display: block;
+}
+ul{
+	position: fixed;
+	width: 100%;
+	height: 60%;
+	background: radial-gradient(white, lightblue);
+	top: 80px;
+	left:100% ;
+	margin-top: 28px;
+	text-align: center;
+	transition: all .5s;
+}
+nav ul li{
+	display: block;
+	margin: 50px 0;
+	line-height: 30px;
+}
+nav ul li a{
+	font-size: 20px;
+
+}
+a.hover ,a.active{
+	background: none;
+	color: #0082e6;
+}
+#check:checked ~ ul{
+	left: 0;
+}
+
+
+}

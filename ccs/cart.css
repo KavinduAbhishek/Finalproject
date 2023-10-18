@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cart-item img {
+    width: 200px; /* Adjusted width to 50px */
+    height: auto;
+    margin-right: 20px;
+}
+
+.details {
+    flex: 1;
+    width: calc(100% - 70px); /* Adjusted width to accommodate the image and spacing */
+}
+
+.details h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.details p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.addto {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+
+.button_{
+
+ background-color:#2284ec ;
+ font-size: 1 em;
+ font-weight: 100;
+ color: rgb(254, 251, 251);
+ width: 25%;
+ padding: 8px;
+ border: 0;
+ cursor: pointer;
+ outline: 0;
+ border-radius: 0.5em;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .checkout-total
+ {
+    margin-left:200px
+ }
+      
+.shopping-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    height: 50%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}

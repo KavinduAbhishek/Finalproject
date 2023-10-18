@@ -1,0 +1,62 @@
+
+.single-product{
+	margin-top: 70px;
+}
+.single-product .col-2 img
+{
+	padding: 0;
+}
+.single-product .col-2{
+	padding: 20px;
+}
+.single-product h4{
+    
+    margin: 20px 0;
+    font-size: 22px;
+	font font-weight: bold;
+
+}
+.single-product select{
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+}
+.single-product input{
+ width: 50px;
+ height: 40px;
+ padding-left: 10px;
+ font-size: 20px;
+ margin-left: 10px;
+ border: 1px solid orange ;
+}
+
+input:focus{
+	outline:none ;
+}
+
+select:focus{
+	outline: none;
+	border-color: black;
+
+}
+
+.single-product .fa{
+	color: orange;
+	margin-left: 10px;
+}
+.small-container{
+	margin: 30px;
+
+}
+.small-container .p1{
+text-align: right ;
+margin-left: 100%;
+
+}
+
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
